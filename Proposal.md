@@ -21,7 +21,7 @@ I’m building a networked multiplayer Connect 4 game where two players can conn
 
 Each member owns one comparable feature, built end to end across the term.
 
-- <Zain Saleem>: <working on the backend>
+- **Zain Saleem:** Working on the backend and server-side game logic
 - <member 2>: <their feature>
 - <member 3>: <their feature>
 
