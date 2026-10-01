@@ -23,10 +23,14 @@ def display_board(board):
 
 
 def drop_piece(board, column, piece):
-    for row in range(5, -1, -1):
+    row = 5
+
+    while row >= 0:
         if board[row][column] == "-":
             board[row][column] = piece
             return True
+
+        row = row - 1
 
     return False
 
@@ -34,40 +38,75 @@ def drop_piece(board, column, piece):
 def check_winner(board, piece):
 
     # Horizontal
-    for row in range(6):
-        for col in range(4):
+    row = 0
+
+    while row < 6:
+        col = 0
+
+        while col < 4:
             if (board[row][col] == piece and
                 board[row][col + 1] == piece and
                 board[row][col + 2] == piece and
                 board[row][col + 3] == piece):
                 return True
 
+            col = col + 1
+
+        row = row + 1
+
+
     # Vertical
-    for row in range(3):
-        for col in range(7):
+    row = 0
+
+    while row < 3:
+        col = 0
+
+        while col < 7:
             if (board[row][col] == piece and
                 board[row + 1][col] == piece and
                 board[row + 2][col] == piece and
                 board[row + 3][col] == piece):
                 return True
 
+            col = col + 1
+
+        row = row + 1
+
+
     # Diagonal down-right
-    for row in range(3):
-        for col in range(4):
+    row = 0
+
+    while row < 3:
+        col = 0
+
+        while col < 4:
             if (board[row][col] == piece and
                 board[row + 1][col + 1] == piece and
                 board[row + 2][col + 2] == piece and
                 board[row + 3][col + 3] == piece):
                 return True
 
+            col = col + 1
+
+        row = row + 1
+
+
     # Diagonal up-right
-    for row in range(3, 6):
-        for col in range(4):
+    row = 3
+
+    while row < 6:
+        col = 0
+
+        while col < 4:
             if (board[row][col] == piece and
                 board[row - 1][col + 1] == piece and
                 board[row - 2][col + 2] == piece and
                 board[row - 3][col + 3] == piece):
                 return True
+
+            col = col + 1
+
+        row = row + 1
 
     return False
 
@@ -75,6 +114,7 @@ def check_winner(board, piece):
 current_player = "X"
 
 print("CONNECT 4")
+
 
 while True:
 
