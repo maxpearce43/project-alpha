@@ -11,7 +11,7 @@ networked, multi-user theme - see the "Suggested projects" section of
 | Full name | GitHub username |
 |-----------|-----------------|
 | <zain saleem>    | @<zainsaleem1-rgb>     |
-| <name>    | @<username>     |
+| <vincent hung>    | @<vincenth933>     |
 | <name>    | @<username>     |
 | <name>    | @<username>     |
 | <name>    | @<username>     |
