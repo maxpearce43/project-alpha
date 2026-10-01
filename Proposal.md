@@ -5,7 +5,7 @@ Copy this file into your **group** repository as `PROPOSAL.md`, then fill it in 
 ## Team
 
 - <member 1 zain saleem  +  zainsaleem1-rgb>
-- <member 2 name + GitHub username>
+- <member 2 vincent hung + vincenth933>
 - <member 3 name + GitHub username>
 - <member 4 name + GitHub username>
 - <member 5 name + GitHub username, if any>
@@ -22,7 +22,7 @@ I’m building a networked multiplayer Connect 4 game where two players can conn
 Each member owns one comparable feature, built end to end across the term.
 
 - **Zain Saleem:** Working on the backend and server-side game logic
-- <member 2>: <their feature>
+- **Vincent Hung:** Working on networking and real-time multiplayer synchronization
 - <member 3>: <their feature>
 
 ## Tech plan

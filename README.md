@@ -12,6 +12,8 @@ networked, multi-user theme - see the "Suggested projects" section of
 |-----------|-----------------|
 | <zain saleem> | @<zainsaleem1-rgb>     |
 | <name>    | @<username>     |
+| <zain saleem>    | @<zainsaleem1-rgb>     |
+| <vincent hung>    | @<vincenth933>     |
 | <name>    | @<username>     |
 | <name>    | @<username>     |
 | <name>    | @<username>     |
