@@ -21,13 +21,10 @@ in - the rest of this file is one row per member, per milestone, against their s
 
 | Student | Slice (the feature they own) |
 |---------|------------------------------|
-| <name>  | <feature>                    |
-| <name>  | <feature>                    |
-| <name>  | <feature>                    |
-| <name>  | <feature>                    |
-| <name>  | <feature>                    |
+| Zain Saleem | <feature> |
+| Vincent Hung | <feature> |
+| Max Pearce | Board and rules: `Board` class, win detection, board-size options, board display |
 
-<!-- Teams of four: delete the fifth row, here and in the tables below. -->
 
 ---
 
@@ -69,11 +66,13 @@ Worked example:
 
 | Student | OOP | File I/O | Recursion | Command-line args | Interface (TUI/GUI) |
 |---------|-----|----------|-----------|-------------------|---------------------|
-| <name>  |     |          |           |                   |                     |
-| <name>  |     |          |           |                   |                     |
-| <name>  |     |          |           |                   |                     |
-| <name>  |     |          |           |                   |                     |
-| <name>  |     |          |           |                   |                     |
+| Zain Saleem |     |          |           |                   |                     |
+| Vincent Hung |     |          |           |                   |                     |
+| Max Pearce | fe85ff8 | fe85ff8 | fe85ff8 | fe85ff8 | fe85ff8 |
+
+<!-- Max: all in `main.py` - `Board` class (OOP); `Board.save`/`load`/`to_dict`/`from_dict` (File I/O);
+     `Board.count_direction` (Recursion); `--rows/--cols/--connect/--board-file` in `parse_args` (args);
+     `menu`/`play` (Interface). -->
 
 ## Milestone 3 - Final Product (Units 04-05)
 
