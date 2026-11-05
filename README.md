@@ -10,13 +10,9 @@ networked, multi-user theme - see the "Suggested projects" section of
 
 | Full name | GitHub username |
 |-----------|-----------------|
-| <zain saleem> | @<zainsaleem1-rgb>     |
-| <name>    | @<username>     |
-| <zain saleem>    | @<zainsaleem1-rgb>     |
-| <vincent hung>    | @<vincenth933>     |
-| <name>    | @<username>     |
-| <name>    | @<username>     |
-| <name>    | @<username>     |
+| Zain Saleem | @zainsaleem1-rgb |
+| Vincent Hung | @vincenth933 |
+| Max Pearce | @maxpearce43 |
 
 Note:  Be sure to [add all of the group members to as collaborators on this repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/inviting-collaborators-to-a-personal-repository).
 
